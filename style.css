@@ -60,6 +60,11 @@ body,
   margin: 1rem 0;
 }
 
+.sidebar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .main {
   display: grid;
   grid-template-columns: 1fr;
