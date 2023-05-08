@@ -153,6 +153,7 @@ body,
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr;
   padding: 2rem 1rem;
+  gap: 1rem;
 }
 
 .projects-sidebar {
@@ -222,4 +223,58 @@ body,
 
 .trending-project-name {
   font-size: 0.85rem;
+}
+
+.projects>h3 {
+  margin-bottom: 0.5rem;
+}
+
+.projects {
+  display: flex;
+}
+
+.project-cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-left: 10px solid #f0b429;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1rem;
+  width: 100%;
+}
+
+.project-button {
+  background-color: transparent;
+  border: none;
+}
+
+.project-button-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.rotate-270 {
+  rotate: 270deg;
 }
